@@ -12,4 +12,5 @@ Using Gausian Mixture Models, we were able to calssify Sentinal-3 data into sea 
 
 ## ESA Comparison
 Finally we comapred our classifcation with that of the European Space Agency (ESA), and found that our methods worked well, with a high frequency of correct classification.
+
 ![image](https://github.com/user-attachments/assets/844f42ca-4669-453f-a0bc-76eaf8412a74)
