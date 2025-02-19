@@ -6,6 +6,10 @@ We covered the usage and implimentation of unsupervised learning, particularly K
 ![image](https://github.com/user-attachments/assets/b8c91169-027d-45f8-94da-3f3ed520fd18)
 ## Altimetry Classification
 Using Gausian Mixture Models, we were able to calssify Sentinal-3 data into sea ice and leads, and retrived the echos waveforms. We investigated the the mean and standard deviation of these calssifcations and used allignment techniques to identify the change.
+![image](https://github.com/user-attachments/assets/27286081-22da-4aa6-8573-3d641748b2e8)
+![image](https://github.com/user-attachments/assets/2f756a97-0425-4f84-b261-bfc93e7dcb98)
+
+
 ## ESA Comparison
 Finally we comapred our classifcation with that of the European Space Agency (ESA), and found that our methods worked well, with a high frequency of correct classification.
 ![image](https://github.com/user-attachments/assets/844f42ca-4669-453f-a0bc-76eaf8412a74)
