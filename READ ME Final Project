@@ -1,0 +1,61 @@
+FINAL Project: Vegetation Change in the Andes
+Watch the project video
+https://youtu.be/v3IY9jdhyEY
+Project Overview
+Climate change — in part driven by human activity, including AI projects like this — is transforming the climatic conditions of the Andes in southern Chile.
+
+This project seeks to answer:
+
+How will changing temperatures affect the habitable range of vegetation?
+
+Will native plants suffer due to increased environmental stress, shrinking their range? Or could warming conditions expand this range, as new species colonize higher elevations?
+
+Glacial Retreat & Soil Formation
+Warming is also driving glacial retreat, revealing fresh, barren rock. Over time, soil forms in these new areas — a process indicated by the growth of complex vegetation.
+
+By monitoring vegetation's spatial extent, we can proxy soil formation and identify the timeline of ecological succession, from shrub to tree.
+
+Remote Sensing with Sentinel-2
+Vegetation health and presence can be tracked using Sentinel-2 satellite imagery, specifically through the Normalized Difference Vegetation Index (NDVI).
+
+NDVI Formula
+ini
+Copy
+Edit
+NDVI = (B8 - B4) / (B8 + B4)
+B4 (Red): Sentinel-2 Band 4
+
+B8 (NIR): Sentinel-2 Band 8
+
+NDVI Interpretation
+NDVI Value	Interpretation
+-1.0 to 0.0	Water
+~0.0 to 0.1	Barren rock, sand, or snow
+0.2 to 0.4	Shrubs and grasslands
+0.4 and higher	Temperate/tropical forests
+
+By isolating NDVI values greater than 0.2, we can identify areas with likely vegetation.
+
+Elevation & Vegetation
+Overlaying NDVI data with a Digital Elevation Model (DEM) allows us to:
+
+Define upper and lower vegetation boundaries.
+
+Create interpolated surfaces of vegetation extent by elevation.
+
+Track how these vegetation elevation contours shift over time.
+
+This enables predictions of whether vegetation will retreat or advance to certain altitudes in the future — vital for anticipating ecosystem shifts.
+
+Outcomes
+Identify upper elevation limits where vegetation meets rock/snow.
+
+Identify lower elevation limits where vegetation meets water.
+
+Ability to track temporal changes in vegetation boundaries.
+
+Ability to forecast future vegetation zones under continued warming.
+
+Summary
+This project combines NDVI, elevation data, and time-series analysis to monitor and predict how vegetation adapts to climate change in a rapidly evolving alpine landscape.
+
